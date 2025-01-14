@@ -1,0 +1,46 @@
+:root {
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #F4F9FC; /* Light blue/white blend for clarity */
+  --ts-var-root-color: #1A237E; /* Deep blue for text */
+  --ts-var-root-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  --ts-var-root-text-transform: initial;
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFFFFF; /* White text for navigation */
+  --ts-var-nav-background: #1565C0; /* Bright blue for navigation background */
+
+  /* Buttons */
+  --ts-var-button-border-radius: 5px;
+  --ts-var-button--primary-color: #FFFFFF; /* White text on primary buttons */
+  --ts-var-button--primary-background: #1A73E8; /* Bright blue buttons */
+  --ts-var-button--primary--hover-background: #0B5394; /* Darker blue for hover */
+  --ts-var-button--secondary-color: #1A237E;
+  --ts-var-button--secondary-background: #E3F2FD; /* Light blue for secondary buttons */
+  --ts-var-button--secondary--hover-background: #BBDEFB; /* Slightly darker light blue */
+
+  /* Search bar */
+  --ts-var-search-bar-background: #E3F2FD; /* Light blue for the search bar */
+  --ts-var-search-bar-text-font-color: #1A237E; /* Deep blue text */
+
+  /* Visualizations and answers */
+  --ts-var-viz-title-color: #1A237E; /* Deep blue for titles */
+  --ts-var-viz-description-color: #F57C00; /* Orange for subtitles for energy */
+  --ts-var-viz-background: #FFFFFF; /* White backgrounds for charts */
+  --ts-var-viz-legend-hover-background: #E3F2FD;
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #E1F5FE; /* Very light blue for editing areas */
+  --ts-var-liveboard-cross-filter-layout-background: #FFFFFF; /* Neutral background */
+
+  /* Dialogs and Modals */
+  --ts-var-dialog-header-background: #1A73E8; /* Blue for modal headers */
+  --ts-var-dialog-header-color: #FFFFFF; /* White text for clarity */
+  --ts-var-dialog-body-background: #F4F9FC;
+
+  /* Additional Styles */
+  --ts-var-chip-background: #BBDEFB; /* Light blue for filter chips */
+  --ts-var-chip-color: #1A237E; /* Deep blue for chip text */
+  --ts-var-chip--hover-background: #90CAF9;
+  --ts-var-chip--active-background: #0D47A1; /* Dark blue for active chips */
+  --ts-var-chip--active-color: #FFFFFF;
+}
